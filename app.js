@@ -4,11 +4,13 @@ require('dotenv').config();
 const app = express();
 app.use(express.json());
 
-const FULL_NAME = process.env.FULL_NAME;
-const DOB = process.env.DOB;
-const EMAIL = process.env.EMAIL;
-const ROLL_NUMBER = process.env.ROLL_NUMBER;
-const PORT = process.env.PORT || 3000;
+const FULL_NAME = akshatmishra;
+const DOB = 28122003;
+const EMAIL = akshatmishra2022@vitbhopal.ac.in;
+const ROLL_NUMBER = 22BCE10217 ;
+const PORT = 3000;
+
+
 
 function isNumber(str) {
     return /^\d+$/.test(str);
