@@ -4,10 +4,10 @@ require('dotenv').config();
 const app = express();
 app.use(express.json());
 
-const FULL_NAME = akshatmishra;
-const DOB = 28122003;
-const EMAIL = akshatmishra2022@vitbhopal.ac.in;
-const ROLL_NUMBER = 22BCE10217 ;
+const FULL_NAME = "akshatmishra";
+const DOB = "28122003";
+const EMAIL = "akshatmishra2022@vitbhopal.ac.in";
+const ROLL_NUMBER = "22BCE10217" ;
 const PORT = 3000;
 
 
